@@ -20,15 +20,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Deploy to Streamlit Community Cloud
-
-1. Push this folder to a public GitHub repository.
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**.
-3. Select your repo, branch `main`, and set the main file to `app.py`.
-4. Click **Deploy** — Streamlit Cloud will install dependencies from `requirements.txt` automatically.
-
-> **Note:** the spaCy model is installed directly from GitHub via the URL in `requirements.txt`. No separate download step is needed.
-
 ## Project structure
 
 ```
